@@ -1,0 +1,10 @@
+# Build files
+build/
+*.o
+*.obj
+*.exe
+*.out
+*.dSYM/
+
+# macOS
+.DS_Store

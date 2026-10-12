@@ -1,10 +1,37 @@
 # Build files
 build/
+cmake-build*/
 *.o
 *.obj
+*.a
+*.lib
+*.so
+*.so.*
+*.dylib
+*.dll
 *.exe
 *.out
+*.pdb
+*.ilk
+*.idb
+*.pch
+*.gch
+*.ipch
+.s
 *.dSYM/
 
-# macOS
+# CMake generated files (keep CMakeLists.txt and source files)
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+compile_commands.json
+
+# Local IDE settings and caches (at any directory depth)
+.vs/
+.vscode/
+
+# OS-generated files
 .DS_Store
+Thumbs.db
+Desktop.ini
